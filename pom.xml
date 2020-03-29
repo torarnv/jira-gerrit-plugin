@@ -192,15 +192,7 @@
                     <productDataVersion>${jira.version}</productDataVersion>
                     <log4jProperties>src/aps/resources/log4j.properties</log4jProperties>
                     <enableFastdev>false</enableFastdev>
-
-                    <pluginArtifacts>
-                        <pluginArtifact>
-                            <groupId>com.atlassian.labs.plugins</groupId>
-                            <artifactId>quickreload</artifactId>
-                            <version>${quick.reload.version}</version>
-                        </pluginArtifact>
-                    </pluginArtifacts>
-
+                    <enableQuickReload>true</enableQuickReload>
                     <products>
                         <product>
                             <id>jira</id>
@@ -255,8 +247,6 @@
         <atlassian.plugin.key>${project.groupId}.${project.artifactId}</atlassian.plugin.key>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <testkit.version>6.3.11</testkit.version>
-        <quick.reload.version>1.30.5</quick.reload.version>
-
         <jira.test.version>7.2.0</jira.test.version>
         <jira.data.version>7.2.0</jira.data.version>
         <jira.rest.version>3.0.8</jira.rest.version>
