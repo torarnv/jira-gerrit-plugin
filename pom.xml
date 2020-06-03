@@ -193,6 +193,7 @@
                     <log4jProperties>src/aps/resources/log4j.properties</log4jProperties>
                     <enableFastdev>false</enableFastdev>
                     <enableQuickReload>true</enableQuickReload>
+                    <allowGoogleTracking>false</allowGoogleTracking>
                     <products>
                         <product>
                             <id>jira</id>
