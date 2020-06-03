@@ -92,7 +92,7 @@
     <div class="twixi-block collapsed">
         <div class="twixi-wrap concise">
             <a href="#" class="twixi">
-                <span class="icon twixi-closed">
+                <span class="icon-default aui-icon aui-icon-small aui-iconfont-collapsed">
                     <span>Show</span>
                 </span>
             </a>
@@ -100,7 +100,7 @@
         </div>
 
         <div class="twixi-wrap verbose">
-            <span class="twixi icon twixi-opened">
+            <span class="twixi icon-default aui-icon aui-icon-small aui-iconfont-expanded">
                 <span>Hide</span>
             </span>
             <span>
