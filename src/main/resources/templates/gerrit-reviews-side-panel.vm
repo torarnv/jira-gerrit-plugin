@@ -99,7 +99,7 @@
             $i18n.getText("gerrit-reviews-side-panel.closed_reviews", $numClosed)
         </div>
 
-        <div class="verbose">
+        <div class="twixi-wrap verbose">
             <span class="twixi icon twixi-opened">
                 <span>Hide</span>
             </span>
